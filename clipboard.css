@@ -1,0 +1,414 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+  line-height: 1.5;
+}
+
+.background-mobile-img {
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+}
+
+.background-desktop-img {
+  display: none;
+}
+
+/*********** Typography ***********/
+h1 {
+  font-size: 1.5rem;
+  width: 65%;
+  margin-bottom: 1em;
+
+  color: hsl(210, 10%, 33%);
+}
+
+h3 {
+  font-size: 0.75rem;
+  width: 75%;
+  margin-bottom: 1em;
+
+  color: hsl(201, 11%, 66%);
+}
+
+h2 {
+  font-size: 1.1rem;
+  width: 55%;
+  margin-bottom: 1em;
+
+  color: hsl(210, 10%, 33%);
+}
+
+.second-h2 {
+  width: 70%;
+}
+
+.third-h2 {
+  font-size: 1.2rem;
+  width: 55%;
+  margin-bottom: 0.75em;
+}
+
+h5 {
+  font-size: 0.65rem;
+  width: 60%;
+  margin-bottom: 5em;
+  color: hsl(201, 11%, 66%);
+}
+
+.second-h5 {
+  width: 55%;
+}
+
+.second-h3 {
+  font-size: 1rem;
+  margin: 0;
+  color: hsl(210, 10%, 33%);
+}
+
+p {
+  font-size: 0.75rem;
+  width: 50%;
+  opacity: 50%;
+}
+
+.text-wrapper {
+  font-size: 1.2rem;
+  margin-bottom: 0.65em;
+  opacity: 70%;
+}
+
+h6 {
+  font-size: 0.65em;
+  width: 65%;
+  opacity: 40%;
+}
+
+span,
+a {
+  font-size: 0.75rem;
+  color: hsl(210, 10%, 33%);
+}
+
+span,
+a:hover {
+  color: hsl(233, 100%, 69%);
+}
+
+/*********** Typography ***********/
+/*********** Typography ***********/
+
+header {
+  position: relative;
+  z-index: 2;
+}
+
+.logo-Big {
+  width: 4em;
+  margin-top: 5em;
+}
+
+.header-lockup {
+  margin-top: 1em;
+}
+
+.computer-img,
+.phone-img {
+  width: 15em;
+}
+
+.header-container,
+.header-lockup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/************ Button-style ************/
+.cta-container {
+  margin-top: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.cta-btn {
+  padding: 1em 4em;
+  font-size: 0.75rem;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  background-color: hsl(171, 66%, 44%);
+  cursor: pointer;
+}
+
+.cta-btn:nth-child(2) {
+  background-color: hsl(233, 100%, 69%);
+}
+
+/*
+*********** Button-style-end ************/
+/************ Button-style-end ************/
+
+/*********************** middle-container ********************/
+
+.middle-container {
+  margin-top: 6em;
+}
+
+.middle-text-container,
+.computer-img-container,
+.inside-computer-image-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.computer-img-text-container {
+  margin-top: 3em;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+/************ middle-container-end ************/
+/************ middle-container-end ************/
+
+/*********************** ipad-iphone-container ********************/
+
+.ipad-iphone-container {
+  margin-top: 6em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.middle-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/************ ipad-iphone-container ************/
+/************ ipad-iphone-container ************/
+
+/*********************** last-text-container ********************/
+
+.text-img {
+  width: 1.5em;
+  margin-bottom: 1em;
+}
+
+.last-text-container,
+.last-text-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.last-text-container {
+  gap: 3em;
+}
+
+/************ last-text-container ************/
+/************ last-text-container ************/
+
+/*********************** company-brands-container ********************/
+
+.company-brands-container {
+  margin-top: 5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3em;
+}
+
+.company-logo {
+  width: 4em;
+}
+
+/************company-brands-container-end************/
+/************company-brands-container-end************/
+
+/*********************** bottom-container-button ********************/
+
+.bottom-container-button {
+  margin-top: 5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.cta-bottom-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+/************bottom-container-end************/
+/************bottom-container-end************/
+
+/*********************** footer-container ********************/
+
+.logo {
+  width: 2em;
+}
+
+footer {
+  width: 100%;
+  height: 20em;
+  /* background-color: hsl(201, 11%, 66%); */
+  background-color: hsl(0, 0%, 98%);
+  margin-top: 5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  align-items: center;
+  text-align: center;
+}
+
+.footer-container {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.left,
+.middle-footer,
+.right-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.footer-icons {
+  width: 1em;
+  cursor: pointer;
+}
+
+.footer-icons:hover {
+  background-color: hsl(233, 100%, 69%);
+}
+
+.logo-footer-container {
+  display: flex;
+  gap: 2em;
+}
+
+/******************************** Responsive-breakpoint ********************************/
+
+@media (min-width: 767px) {
+  .background-mobile-img {
+    display: none;
+  }
+
+  .background-desktop-img {
+    position: absolute;
+    z-index: 0;
+    display: block;
+    width: 100%;
+  }
+
+  .cta-container {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 1200px) {
+  /***** Typography *****/
+
+  h1 {
+    font-size: 2rem;
+    width: 100%;
+  }
+
+  h3 {
+    font-size: 0.85rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h5 {
+    font-size: 0.85rem;
+    width: 50%;
+  }
+
+  .computer-img-container {
+    display: flex;
+    flex-direction: row;
+    gap: 5em;
+  }
+
+  .computer-img,
+  .phone-img {
+    width: 30em;
+  }
+
+  .second-h3 {
+    text-align: left;
+  }
+
+  p {
+    width: 75%;
+    text-align: left;
+  }
+
+  .second-h2 {
+    width: 100%;
+  }
+
+  .last-text-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .company-brands-container {
+    display: flex;
+    flex-direction: row;
+    gap: 7em;
+  }
+
+  .company-logo {
+    width: 6em;
+  }
+
+  /* footer */
+  .logo {
+    margin-right: 10em;
+  }
+
+  footer {
+    flex-direction: row;
+  }
+
+  .footer-container {
+    margin-right: 15em;
+    display: flex;
+    flex-direction: row;
+    gap: 5em;
+    text-align: left;
+  }
+}
